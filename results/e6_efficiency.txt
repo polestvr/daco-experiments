@@ -1,0 +1,7 @@
+=== E6 efficiency (RTX 4070 Ti SUPER, 64 clips of 10s) ===
+backbone params(M)   dim  ms/clip  clips/s peakVRAM(MB)
+beats         90.3   768      9.4    106.3          824
+eat           90.0   768      7.2    138.3          621
+panns         81.0  2048      1.9    531.5          703
+
+per-machine config cycle on cached embeddings: score+calibrate 89 ms, criterion (10 splits) 57 ms

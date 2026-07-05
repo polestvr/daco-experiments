@@ -1,0 +1,20 @@
+{
+ "beats": {
+  "file": "BEATs_iter3_plus_AS2M.pt",
+  "source": "https://huggingface.co/datasets/Bencr/beats-checkpoints/resolve/main/BEATs_iter3_plus_AS2M.pt",
+  "license": "MIT",
+  "sha256": "d43cbfad4d7b56381c061d7a24774f908d4d94c72961f6eb1d9090ff18cd8d34"
+ },
+ "panns": {
+  "file": "Cnn14_16k_mAP=0.438.pth",
+  "source": "https://zenodo.org/records/3987831/files/Cnn14_16k_mAP%3D0.438.pth",
+  "license": "CC-BY-4.0",
+  "sha256": "e2ee543a27919542c2ea03eabaa70b24dcd4e6c8e05621de6b67a94e4c5058e6"
+ },
+ "eat": {
+  "file": "model.safetensors",
+  "source": "https://huggingface.co/worstchan/EAT-base_epoch30_pretrain",
+  "license": "MIT",
+  "sha256": "8623072d09aac4f3ad1168b4fed3a24e4f68fe1da25b9fe733375efb237e5f48"
+ }
+}

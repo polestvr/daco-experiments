@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+
+# data & caches never belong in the repo
+*.npz
+*.wav
+*.zip
+*.pt
+*.pth
+data/
+models/
+embeddings/
+
+# editors
+.vscode/
+.idea/

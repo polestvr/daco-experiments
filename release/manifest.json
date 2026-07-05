@@ -1,0 +1,512 @@
+[
+ {
+  "name": "raw-k1",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": null,
+  "method": null,
+  "prior_strength": 0,
+  "k": 1,
+  "in_paper_tables": true
+ },
+ {
+  "name": "conf-soft-m0-k1",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 0,
+  "k": 1,
+  "in_paper_tables": true
+ },
+ {
+  "name": "conf-soft-m10-k1",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 10,
+  "k": 1,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-soft-m30-k1",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 30,
+  "k": 1,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-soft-m100-k1",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 100,
+  "k": 1,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-soft-m300-k1",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 300,
+  "k": 1,
+  "in_paper_tables": false
+ },
+ {
+  "name": "ratio-soft-k1",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "ratio",
+  "prior_strength": 0,
+  "k": 1,
+  "in_paper_tables": true
+ },
+ {
+  "name": "zscore-soft-k1",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "zscore",
+  "prior_strength": 0,
+  "k": 1,
+  "in_paper_tables": true
+ },
+ {
+  "name": "conf-hard-m0-k1",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "conformal",
+  "prior_strength": 0,
+  "k": 1,
+  "in_paper_tables": true
+ },
+ {
+  "name": "conf-hard-m10-k1",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "conformal",
+  "prior_strength": 10,
+  "k": 1,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-hard-m30-k1",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "conformal",
+  "prior_strength": 30,
+  "k": 1,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-hard-m100-k1",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "conformal",
+  "prior_strength": 100,
+  "k": 1,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-hard-m300-k1",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "conformal",
+  "prior_strength": 300,
+  "k": 1,
+  "in_paper_tables": false
+ },
+ {
+  "name": "ratio-hard-k1",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "ratio",
+  "prior_strength": 0,
+  "k": 1,
+  "in_paper_tables": false
+ },
+ {
+  "name": "zscore-hard-k1",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "zscore",
+  "prior_strength": 0,
+  "k": 1,
+  "in_paper_tables": false
+ },
+ {
+  "name": "raw-k2",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": null,
+  "method": null,
+  "prior_strength": 0,
+  "k": 2,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-soft-m0-k2",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 0,
+  "k": 2,
+  "in_paper_tables": true
+ },
+ {
+  "name": "conf-soft-m10-k2",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 10,
+  "k": 2,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-soft-m30-k2",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 30,
+  "k": 2,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-soft-m100-k2",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 100,
+  "k": 2,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-soft-m300-k2",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 300,
+  "k": 2,
+  "in_paper_tables": false
+ },
+ {
+  "name": "ratio-soft-k2",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "ratio",
+  "prior_strength": 0,
+  "k": 2,
+  "in_paper_tables": false
+ },
+ {
+  "name": "zscore-soft-k2",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "zscore",
+  "prior_strength": 0,
+  "k": 2,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-hard-m0-k2",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "conformal",
+  "prior_strength": 0,
+  "k": 2,
+  "in_paper_tables": true
+ },
+ {
+  "name": "conf-hard-m10-k2",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "conformal",
+  "prior_strength": 10,
+  "k": 2,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-hard-m30-k2",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "conformal",
+  "prior_strength": 30,
+  "k": 2,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-hard-m100-k2",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "conformal",
+  "prior_strength": 100,
+  "k": 2,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-hard-m300-k2",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "conformal",
+  "prior_strength": 300,
+  "k": 2,
+  "in_paper_tables": false
+ },
+ {
+  "name": "ratio-hard-k2",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "ratio",
+  "prior_strength": 0,
+  "k": 2,
+  "in_paper_tables": false
+ },
+ {
+  "name": "zscore-hard-k2",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "zscore",
+  "prior_strength": 0,
+  "k": 2,
+  "in_paper_tables": false
+ },
+ {
+  "name": "raw-k4",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": null,
+  "method": null,
+  "prior_strength": 0,
+  "k": 4,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-soft-m0-k4",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 0,
+  "k": 4,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-soft-m10-k4",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 10,
+  "k": 4,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-soft-m30-k4",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 30,
+  "k": 4,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-soft-m100-k4",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 100,
+  "k": 4,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-soft-m300-k4",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 300,
+  "k": 4,
+  "in_paper_tables": false
+ },
+ {
+  "name": "ratio-soft-k4",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "ratio",
+  "prior_strength": 0,
+  "k": 4,
+  "in_paper_tables": false
+ },
+ {
+  "name": "zscore-soft-k4",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "soft",
+  "method": "zscore",
+  "prior_strength": 0,
+  "k": 4,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-hard-m0-k4",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "conformal",
+  "prior_strength": 0,
+  "k": 4,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-hard-m10-k4",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "conformal",
+  "prior_strength": 10,
+  "k": 4,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-hard-m30-k4",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "conformal",
+  "prior_strength": 30,
+  "k": 4,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-hard-m100-k4",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "conformal",
+  "prior_strength": 100,
+  "k": 4,
+  "in_paper_tables": false
+ },
+ {
+  "name": "conf-hard-m300-k4",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "conformal",
+  "prior_strength": 300,
+  "k": 4,
+  "in_paper_tables": false
+ },
+ {
+  "name": "ratio-hard-k4",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "ratio",
+  "prior_strength": 0,
+  "k": 4,
+  "in_paper_tables": false
+ },
+ {
+  "name": "zscore-hard-k4",
+  "base": "knn",
+  "density_K": 0,
+  "assignment": "hard",
+  "method": "zscore",
+  "prior_strength": 0,
+  "k": 4,
+  "in_paper_tables": false
+ },
+ {
+  "name": "ldn-ratio-K1",
+  "base": "ldn-ratio",
+  "density_K": 1,
+  "assignment": null,
+  "method": null,
+  "prior_strength": 0,
+  "k": 1,
+  "in_paper_tables": true
+ },
+ {
+  "name": "ldn-ratio-K16",
+  "base": "ldn-ratio",
+  "density_K": 16,
+  "assignment": null,
+  "method": null,
+  "prior_strength": 0,
+  "k": 1,
+  "in_paper_tables": true
+ },
+ {
+  "name": "ldn-diff-K1",
+  "base": "ldn-diff",
+  "density_K": 1,
+  "assignment": null,
+  "method": null,
+  "prior_strength": 0,
+  "k": 1,
+  "in_paper_tables": true
+ },
+ {
+  "name": "ldn-diff-K16",
+  "base": "ldn-diff",
+  "density_K": 16,
+  "assignment": null,
+  "method": null,
+  "prior_strength": 0,
+  "k": 1,
+  "in_paper_tables": true
+ },
+ {
+  "name": "conf-soft-m0-ldnK1",
+  "base": "ldn-ratio",
+  "density_K": 1,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 0,
+  "k": 1,
+  "in_paper_tables": true
+ },
+ {
+  "name": "conf-soft-m30-ldnK1",
+  "base": "ldn-ratio",
+  "density_K": 1,
+  "assignment": "soft",
+  "method": "conformal",
+  "prior_strength": 30,
+  "k": 1,
+  "in_paper_tables": true
+ }
+]

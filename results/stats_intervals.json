@@ -1,0 +1,117 @@
+{
+  "point_omegas": {
+    "raw-k1": 55.829,
+    "conf-soft-m0-k1": 59.341,
+    "conf-soft-m0-ldnK1": 61.052
+  },
+  "clip_bootstrap_CI95": {
+    "conf-soft-m0-k1 - raw-k1": [
+      2.51,
+      4.7
+    ],
+    "conf-soft-m0-ldnK1 - raw-k1": [
+      3.2,
+      7.4
+    ]
+  },
+  "machine_jackknife": {
+    "conf-soft-m0-k1 - raw-k1": {
+      "delta": 3.51,
+      "jackknife_se": 0.65,
+      "ci95": [
+        2.24,
+        4.78
+      ],
+      "loo_range": [
+        3.24,
+        4.02
+      ]
+    },
+    "conf-soft-m0-ldnK1 - raw-k1": {
+      "delta": 5.22,
+      "jackknife_se": 2.02,
+      "ci95": [
+        1.26,
+        9.19
+      ],
+      "loo_range": [
+        4.64,
+        7.2
+      ]
+    }
+  },
+  "dev_eval_rho_CI95": {
+    "rho": 0.062,
+    "family_block_CI95": [
+      -0.393,
+      0.314
+    ]
+  },
+  "family_mean_permutation": {
+    "rho_obs": 0.9286,
+    "n_permutations": 5040,
+    "p_one_sided_exact": 0.00337,
+    "p_two_sided_exact": 0.00675
+  },
+  "partial_conformal30": {
+    "pearson": [
+      0.2233,
+      0.2356
+    ],
+    "spearman": [
+      0.2076,
+      0.27107
+    ]
+  },
+  "partial_full45_familydummies": {
+    "pearson": [
+      0.7261,
+      0.0
+    ],
+    "spearman": [
+      0.7079,
+      0.0
+    ]
+  },
+  "table_rows": {
+    "beats": {
+      "criterion_only_no_veto": {
+        "config": "conf-soft-m0-ldnK1",
+        "eval_omega": 61.05
+      },
+      "random_config": {
+        "mean": 57.83,
+        "sd": 2.05
+      },
+      "always_m0_soft_k1": {
+        "eval_omega": 59.34
+      }
+    },
+    "eat": {
+      "criterion_only_no_veto": {
+        "config": "ldn-diff-K16",
+        "eval_omega": 45.26
+      },
+      "random_config": {
+        "mean": 57.5,
+        "sd": 2.06
+      },
+      "always_m0_soft_k1": {
+        "eval_omega": 58.87
+      }
+    },
+    "panns": {
+      "criterion_only_no_veto": {
+        "config": "conf-soft-m0-ldnK1",
+        "eval_omega": 55.58
+      },
+      "random_config": {
+        "mean": 54.82,
+        "sd": 1.52
+      },
+      "always_m0_soft_k1": {
+        "eval_omega": 55.55
+      }
+    }
+  }
+}

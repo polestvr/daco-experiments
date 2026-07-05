@@ -1,0 +1,238 @@
+{
+  "2023": {
+    "criterion": {
+      "rho_full_grid": 0.54,
+      "p_naive": 4.2e-05,
+      "family_block_CI95": [
+        -0.09,
+        0.696
+      ],
+      "perm": {
+        "rho_family_means": 0.418,
+        "n_families": 10,
+        "exact": false,
+        "p_one_sided": 0.11635,
+        "p_two_sided": 0.2314
+      }
+    },
+    "dev_omega": {
+      "rho_full_grid": 0.184,
+      "p_naive": 0.196896,
+      "family_block_CI95": [
+        -0.011,
+        0.699
+      ],
+      "perm": {
+        "rho_family_means": 0.382,
+        "n_families": 10,
+        "exact": false,
+        "p_one_sided": 0.14064,
+        "p_two_sided": 0.2794
+      }
+    },
+    "configs": {
+      "guarded": "ratio-hard-k2",
+      "dev_pick": "ldn-diff-K1",
+      "fixed": "conf-soft-m0-k1"
+    },
+    "delta_guarded_vs_fixed": {
+      "delta": -0.15,
+      "se": 0.79,
+      "ci95": [
+        -1.7,
+        1.39
+      ],
+      "loo_range": [
+        -0.77,
+        0.34
+      ]
+    },
+    "delta_guarded_vs_devpick": {
+      "delta": 1.3,
+      "se": 1.26,
+      "ci95": [
+        -1.17,
+        3.76
+      ],
+      "loo_range": [
+        0.87,
+        2.43
+      ]
+    },
+    "per_machine_blind": {
+      "omega": 63.38,
+      "choices": {
+        "ToyDrone": "ratio-soft-k1",
+        "ToyNscale": "conf-soft-m0-k1",
+        "ToyTank": "ratio-soft-k1",
+        "Vacuum": "conf-soft-m0-k1",
+        "bandsaw": "conf-soft-m0-k1",
+        "grinder": "conf-soft-m0-k1",
+        "shaker": "conf-soft-m10-k1"
+      }
+    }
+  },
+  "2024": {
+    "criterion": {
+      "rho_full_grid": -0.095,
+      "p_naive": 0.505114,
+      "family_block_CI95": [
+        -0.601,
+        0.277
+      ],
+      "perm": {
+        "rho_family_means": -0.442,
+        "n_families": 10,
+        "exact": false,
+        "p_one_sided": 0.90449,
+        "p_two_sided": 0.20447
+      }
+    },
+    "dev_omega": {
+      "rho_full_grid": 0.126,
+      "p_naive": 0.379787,
+      "family_block_CI95": [
+        -0.201,
+        0.45
+      ],
+      "perm": {
+        "rho_family_means": 0.345,
+        "n_families": 10,
+        "exact": false,
+        "p_one_sided": 0.16647,
+        "p_two_sided": 0.33205
+      }
+    },
+    "configs": {
+      "guarded": "ratio-hard-k1",
+      "dev_pick": "zscore-hard-k2",
+      "fixed": "conf-soft-m0-k1"
+    },
+    "delta_guarded_vs_fixed": {
+      "delta": -1.41,
+      "se": 0.8,
+      "ci95": [
+        -2.97,
+        0.16
+      ],
+      "loo_range": [
+        -1.71,
+        -0.7
+      ]
+    },
+    "delta_guarded_vs_devpick": {
+      "delta": -1.35,
+      "se": 1.35,
+      "ci95": [
+        -4.01,
+        1.3
+      ],
+      "loo_range": [
+        -1.87,
+        -0.15
+      ]
+    },
+    "per_machine_blind": {
+      "omega": 57.63,
+      "choices": {
+        "3DPrinter": "ldn-ratio-K1",
+        "AirCompressor": "ratio-soft-k1",
+        "BrushlessMotor": "conf-soft-m0-k1",
+        "HairDryer": "conf-soft-m0-k1",
+        "HoveringDrone": "conf-soft-m0-k1",
+        "RoboticArm": "conf-soft-m0-k1",
+        "Scanner": "conf-soft-m0-ldnK1",
+        "ToothBrush": "ratio-soft-k1",
+        "ToyCircuit": "conf-soft-m0-ldnK1"
+      }
+    }
+  },
+  "2025": {
+    "criterion": {
+      "rho_full_grid": 0.81,
+      "p_naive": 0.0,
+      "family_block_CI95": [
+        0.431,
+        0.927
+      ],
+      "perm": {
+        "rho_family_means": 0.515,
+        "n_families": 10,
+        "exact": false,
+        "p_one_sided": 0.06733,
+        "p_two_sided": 0.13381
+      }
+    },
+    "dev_omega": {
+      "rho_full_grid": -0.031,
+      "p_naive": 0.827824,
+      "family_block_CI95": [
+        -0.437,
+        0.224
+      ],
+      "perm": {
+        "rho_family_means": 0.103,
+        "n_families": 10,
+        "exact": false,
+        "p_one_sided": 0.39143,
+        "p_two_sided": 0.78393
+      }
+    },
+    "configs": {
+      "guarded": "conf-soft-m0-ldnK1",
+      "dev_pick": "raw-k1",
+      "fixed": "conf-soft-m0-k1"
+    },
+    "delta_guarded_vs_fixed": {
+      "delta": 1.71,
+      "se": 1.49,
+      "ci95": [
+        -1.21,
+        4.63
+      ],
+      "loo_range": [
+        1.31,
+        3.18
+      ]
+    },
+    "delta_guarded_vs_devpick": {
+      "delta": 5.22,
+      "se": 2.02,
+      "ci95": [
+        1.26,
+        9.18
+      ],
+      "loo_range": [
+        4.64,
+        7.2
+      ]
+    },
+    "per_machine_blind": {
+      "omega": 59.63,
+      "choices": {
+        "AutoTrash": "conf-soft-m0-ldnK1",
+        "BandSealer": "conf-soft-m0-ldnK1",
+        "CoffeeGrinder": "conf-soft-m0-k1",
+        "HomeCamera": "conf-soft-m0-k1",
+        "Polisher": "conf-soft-m0-ldnK1",
+        "ScrewFeeder": "conf-soft-m0-k1",
+        "ToyPet": "conf-soft-m0-k1",
+        "ToyRCCar": "ldn-ratio-K1"
+      }
+    }
+  },
+  "ldn_ratio_tie_check": {
+    "K1_eval": 61.0388,
+    "K16_eval": 61.0402
+  },
+  "partial_2023": {
+    "pearson": [
+      -0.7717,
+      0.0
+    ],
+    "spearman": [
+      -0.6056,
+      0.0
+    ]
+  }
+}

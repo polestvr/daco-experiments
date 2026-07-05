@@ -1,0 +1,72 @@
+{
+  "transfer_correlation": {
+    "rho_full_grid": 0.9082,
+    "family_block_bootstrap_CI95": [
+      0.83,
+      0.95
+    ],
+    "n_bootstrap": 5000,
+    "families": [
+      "conf-hard",
+      "conf-soft",
+      "ratio-hard",
+      "ratio-soft",
+      "raw",
+      "zscore-hard",
+      "zscore-soft"
+    ],
+    "lofo_range": [
+      0.898,
+      0.923
+    ],
+    "conformal_only_rho": 0.889,
+    "family_mean_rho": 0.929,
+    "family_mean_p": 0.0025,
+    "machine_level_bootstrap_CI95": [
+      0.238,
+      0.968
+    ]
+  },
+  "criterion_h0_floor": {
+    "h0_floor_per_machine_mean": 0.357,
+    "h0_floor_per_machine_sd": 0.032,
+    "h0_floor_7machine_mean_sd": 0.0123
+  },
+  "gap_statistics": {
+    "raw": {
+      "signed_mean_gap": 13.85,
+      "mean_abs_gap": 15.11,
+      "median_gap": 15.24
+    },
+    "daco-m0": {
+      "signed_mean_gap": -1.16,
+      "mean_abs_gap": 14.01,
+      "median_gap": 3.6
+    }
+  },
+  "separability_vs_gain": {
+    "spearman_sep_vs_gain_15m": 0.392,
+    "p": 0.148,
+    "counterexamples": {
+      "ToyPet": [
+        0.55,
+        16.0
+      ],
+      "AutoTrash": [
+        0.65,
+        17.5
+      ],
+      "ToyTrain": [
+        0.8,
+        -8.4
+      ]
+    }
+  },
+  "criterion_sensitivity": {
+    "argmin_by_S": {
+      "S=5": "conf-soft-m0-k1",
+      "S=10": "conf-soft-m0-k1",
+      "S=20": "conf-soft-m0-k1"
+    }
+  }
+}

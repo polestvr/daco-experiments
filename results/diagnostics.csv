@@ -1,0 +1,16 @@
+machine,split,assignment_acc_test_normals,separability_train,pct_anom_above_tgt_max,pct_anom_above_src_q90
+bearing,dev,0.54,0.497,24.0,30.0
+fan,dev,1.0,1.0,1.0,25.0
+gearbox,dev,0.63,0.598,2.0,15.0
+slider,dev,0.52,0.596,10.0,37.0
+ToyCar,dev,0.85,0.95,6.0,99.0
+ToyTrain,dev,0.68,0.8,22.0,98.0
+valve,dev,0.51,0.593,69.0,49.0
+AutoTrash,eval,0.74,0.649,4.0,55.0
+BandSealer,eval,0.94,0.9,9.0,38.0
+CoffeeGrinder,eval,0.85,1.0,32.0,59.0
+HomeCamera,eval,0.95,0.95,5.0,39.0
+Polisher,eval,0.81,0.8,0.0,45.0
+ScrewFeeder,eval,0.55,0.75,28.0,91.0
+ToyPet,eval,0.77,0.55,1.0,68.0
+ToyRCCar,eval,0.56,0.599,15.0,16.0

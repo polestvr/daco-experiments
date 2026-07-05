@@ -1,0 +1,20 @@
+seed 0: omega=59.16  AutoTrash:m0 BandSealer:ratio-soft CoffeeGrinder:m0 HomeCamera:m0 Polisher:m0 ScrewFeeder:m0 ToyPet:m0 ToyRCCar:ratio-soft
+seed 1: omega=59.20  AutoTrash:m0 BandSealer:m10 CoffeeGrinder:ratio-soft HomeCamera:m0 Polisher:m0 ScrewFeeder:m0 ToyPet:m0 ToyRCCar:ratio-soft
+seed 2: omega=59.16  AutoTrash:m0 BandSealer:m10 CoffeeGrinder:ratio-soft HomeCamera:m0 Polisher:m0 ScrewFeeder:ratio-soft ToyPet:m0 ToyRCCar:ratio-soft
+seed 3: omega=59.05  AutoTrash:m0 BandSealer:ratio-soft CoffeeGrinder:ratio-soft HomeCamera:m0 Polisher:m0 ScrewFeeder:m0 ToyPet:m0 ToyRCCar:ratio-soft
+seed 4: omega=59.23  AutoTrash:m0 BandSealer:m0 CoffeeGrinder:ratio-soft HomeCamera:m0 Polisher:m0 ScrewFeeder:m0 ToyPet:m0 ToyRCCar:m0
+seed 5: omega=59.11  AutoTrash:m0 BandSealer:ratio-soft CoffeeGrinder:m0 HomeCamera:m0 Polisher:m0 ScrewFeeder:m0 ToyPet:m0 ToyRCCar:m0
+seed 6: omega=59.01  AutoTrash:m0 BandSealer:ratio-soft CoffeeGrinder:ratio-soft HomeCamera:m0 Polisher:m0 ScrewFeeder:m0 ToyPet:m0 ToyRCCar:m0
+seed 7: omega=59.34  AutoTrash:m0 BandSealer:m0 CoffeeGrinder:m0 HomeCamera:m0 Polisher:m0 ScrewFeeder:m0 ToyPet:m0 ToyRCCar:m0
+seed 8: omega=59.28  AutoTrash:m0 BandSealer:m0 CoffeeGrinder:ratio-soft HomeCamera:m0 Polisher:m0 ScrewFeeder:m0 ToyPet:m0 ToyRCCar:ratio-soft
+seed 9: omega=58.91  AutoTrash:m0 BandSealer:ratio-soft CoffeeGrinder:ratio-soft HomeCamera:m0 Polisher:ratio-soft ScrewFeeder:m0 ToyPet:m0 ToyRCCar:m0
+
+composed eval omega over 10 seeds: mean 59.14  std 0.12  min 58.91  max 59.34
+  AutoTrash      choice stability 100%  ({'conf-soft-m0-k1': 10})
+  BandSealer     choice stability  50%  ({'conf-soft-m0-k1': 3, 'conf-soft-m10-k1': 2, 'ratio-soft-k1': 5})
+  CoffeeGrinder  choice stability  70%  ({'conf-soft-m0-k1': 3, 'ratio-soft-k1': 7})
+  HomeCamera     choice stability 100%  ({'conf-soft-m0-k1': 10})
+  Polisher       choice stability  90%  ({'conf-soft-m0-k1': 9, 'ratio-soft-k1': 1})
+  ScrewFeeder    choice stability  90%  ({'conf-soft-m0-k1': 9, 'ratio-soft-k1': 1})
+  ToyPet         choice stability 100%  ({'conf-soft-m0-k1': 10})
+  ToyRCCar       choice stability  50%  ({'conf-soft-m0-k1': 5, 'ratio-soft-k1': 5})

@@ -1,0 +1,13 @@
+backbone,delta,pick,eval_omega
+beats,2,conf-hard-m0-k1,59.5039
+beats,3,conf-soft-m0-ldnK1,61.0518
+beats,5,conf-soft-m0-ldnK1,61.0518
+beats,8,conf-soft-m0-ldnK1,61.0518
+eat,2,conf-hard-m0-k1,58.8656
+eat,3,conf-soft-m0-k1,58.874
+eat,5,conf-soft-m0-k1,58.874
+eat,8,conf-soft-m0-ldnK1,59.7462
+panns,2,conf-soft-m0-ldnK1,55.5806
+panns,3,conf-soft-m0-ldnK1,55.5806
+panns,5,conf-soft-m0-ldnK1,55.5806
+panns,8,conf-soft-m0-ldnK1,55.5806
