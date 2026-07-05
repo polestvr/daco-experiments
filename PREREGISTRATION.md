@@ -11,8 +11,8 @@ evaluation ground truth** (anomaly and domain labels), which is what
 offline scoring requires. The frozen configuration therefore could not
 have been evaluated, directly or indirectly, at freezing time.
 Verification rests on the SHA-256 artifact hashes below and on an
-independent timestamped deposit of this file (Zenodo/OSF; DOI to be
-recorded here upon deposit).
+independent, immutable Zenodo archive of this repository snapshot
+(version v1.0.0, DOI [10.5281/zenodo.21210904](https://doi.org/10.5281/zenodo.21210904)).
 
 ## Input
 

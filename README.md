@@ -1,5 +1,7 @@
 # DACo — Training-Free Model Selection and Domain-Aware Score Calibration for First-Shot Anomalous Sound Detection
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21210903.svg)](https://doi.org/10.5281/zenodo.21210903)
+
 Code and released artifacts for the experiments in the paper of the same
 title. DACo is the method, evaluated on DCASE Challenge Task 2 (2023--2026).
 
