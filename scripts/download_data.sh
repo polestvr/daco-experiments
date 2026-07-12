@@ -53,6 +53,13 @@ extract_all "$D/dcase2024t2/eval/zips" "$D/dcase2024t2/eval/raw"
 fetch_record 19336329 "$D/dcase2026t2/dev/zips"
 extract_all "$D/dcase2026t2/dev/zips" "$D/dcase2026t2/dev/raw"
 
+# --- DCASE 2026 evaluation set (additional train 20151556; eval test 20437238) ---
+# Needed for E8, the pre-registered forward test, once the per-clip ground truth
+# is public. Both records extract into the same eval/raw dir (<machine>/{train,test}).
+fetch_record 20151556 "$D/dcase2026t2/eval/zips"
+fetch_record 20437238 "$D/dcase2026t2/eval/zips"
+extract_all "$D/dcase2026t2/eval/zips" "$D/dcase2026t2/eval/raw"
+
 # --- Backbone checkpoints (SHA-256 pins in release/checkpoints.json) ---
 mkdir -p ~/models/beats ~/models/panns
 wget -q -c "https://huggingface.co/datasets/Bencr/beats-checkpoints/resolve/main/BEATs_iter3_plus_AS2M.pt" \
@@ -61,8 +68,10 @@ wget -q -c "https://zenodo.org/records/3987831/files/Cnn14_16k_mAP%3D0.438.pth?d
   -O ~/models/panns/Cnn14_16k_mAP=0.438.pth
 # EAT downloads automatically from Hugging Face on first use.
 
-# --- Official evaluators (post-challenge ground truth for 2023-2025) ---
-for y in 2023 2024 2025; do
+# --- Official evaluators (post-challenge ground truth) ---
+# 2026 ground truth was released 2026-07-08 (ground_truth_data/ + _domain/),
+# enabling the pre-registered E8 forward test.
+for y in 2023 2024 2025 2026; do
   [ -d ~/tools/dcase${y}_task2_evaluator ] ||
     git clone -q --depth 1 "https://github.com/nttcslab/dcase${y}_task2_evaluator" \
       ~/tools/dcase${y}_task2_evaluator
